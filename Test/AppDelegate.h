@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "RootNaviViewController.h"
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (nonatomic,weak)UINavigationController *rootNV;
+@property (nonatomic,weak)RootNaviViewController *rootNV;
 
 @property (strong, nonatomic) UIWindow *window;
 

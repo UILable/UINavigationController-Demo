@@ -9,6 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface RootNaviViewController : UINavigationController
-@property(nonatomic,strong)UIViewController *winVC;
 
 @end

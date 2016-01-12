@@ -17,7 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-    self.rootNV = (UINavigationController *)self.window.rootViewController;
+    self.rootNV = (RootNaviViewController *)self.window.rootViewController;
     
     return YES;
 }

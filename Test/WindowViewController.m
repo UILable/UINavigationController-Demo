@@ -27,8 +27,11 @@
     AppDelegate *app=[UIApplication sharedApplication].delegate;
     NextViewController *vc= [[NextViewController alloc]init];
     //这里获取到导航控制器 ，所以无论是push 还是present 都可以  只需要保持一致即可
-    [app.rootNV pushViewController:vc animated:YES];
-//    [app.rootNV presentViewController:vc animated:YES completion:nil];
+    
+
+    //因为winVC是加载导航控制器上的，所以如果不想显示的话只能present
+//    [app.rootNV pushViewController:vc animated:YES];
+    [app.rootNV presentViewController:vc animated:YES completion:nil];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
